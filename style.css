@@ -1,0 +1,42 @@
+#main {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  border: 2px solid blue;
+  margin: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+.heading > h1 {
+  font-size: 40px;
+  color: rgb(133, 133, 255);
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.select_div {
+  margin: 20px;
+  padding: 20px;
+}
+.select_div > select {
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 20px;
+}
+
+.details {
+  border: 1px solid rgba(211, 187, 187, 0.933);
+  margin: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1.2em;
+}
